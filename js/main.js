@@ -361,6 +361,8 @@ console.log (insta);
 	};
 ko.applyBindings(new hopeViewModel());
 
+console.log('test');
+
 
 
 
