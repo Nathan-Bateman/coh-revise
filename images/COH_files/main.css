@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, {
+	width: 100%;
+	height: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+.container-fluid {
+	width: 100%;
+	height:100%;
+};
+/*header/footer styles*/
+
+.lifesong {
+
+}
+
+.hammy {
+	padding-top: 1.25em;
+}
+.ipwith {
+	font-size: 85%;
+	padding-top: -5px;
+    color:rgba(95, 115, 159, 0.75);;
+}
+.coh {
+	padding-top: .3em;
+    color: #1A305A;
+}
+hr {
+    margin-top: 3px;
+}
+.padding-left-off {
+	padding-left: 5px;
+}
+.padding-right-off {
+	padding-right: 0;
+}
+.upsome {
+	margin-top: -.65em;
+}
+.center {
+    margin: 0 auto;
+}
+.instagram {
+    max-width: 50%;
+    margin-top: 8px;
+}
+footer {
+    background-color: #2A457A;
+}
+.lifesong{
+    padding-top: 20px;
+    padding-right:15px;
+}
+.flex-box {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+li .coh {
+    padding-left: 2em;
+    padding-right:2em;
+    color: #f2f2f2;
+}
+.ulgeneral {
+    list-style-type: none;
+}
+/*nav styles*/
+
+ nav {
+        width: 300px;
+        height: 100%;
+        position: absolute;
+        top:0px;
+        right:0px;
+        z-index: 1;
+        /* This trasform moves the drawer off canvas. */
+        -webkit-transform: translate(-300px, 0);
+        transform: translate(1200px, 0);
+        /* Optionally, we animate the drawer. */
+        transition: transform 0.3s ease;
+      }
+      nav.open {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+      }
+.comeout {
+	background-color: #2A457A;
+    color: #efefef;
+}
+.comeout li {
+	list-style-type: none;
+	padding-left: 10px;
+}
+.c-menu__link {
+  display: block;
+  padding: 12px 24px;
+  color: #fff;
+}
+.menuItem {
+    background-color: #2A457A;
+    display: block;
+    text-align: center;
+    border-top: solid 1px #7588AF;
+    border-bottom: solid 1px #050E1B;
+}
+/*Below taken from http://ianlunn.github.io/Hover/*/
+.hvr-fade {
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #0A2E52;
+  color: white;
+}
+/*non header/footer/nav styles*/
+
+.centerImage {
+    margin: 0 auto;
+    width:98%;
+}
